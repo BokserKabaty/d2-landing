@@ -8,6 +8,9 @@ $(function () {
     }
   });
 
+  // Setup WOW
+	new WOW().init();
+
   // 
   ////// Count down timer
   //
@@ -31,7 +34,8 @@ $(function () {
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    $("#counter").html(`Pozostało: <span class="mx-1 mx-md-3">${days} dni</span><span class="mr-1 mr-md-3">${hours} godz</span><span class="mr-1 mr-md-3">${minutes} min</span><span>${seconds} sek</span>`);
+    $("#counter")
+      .html(`Pozostało: <span class="mx-1 mx-md-3">${days} dni</span><span class="mr-1 mr-md-3">${hours} godz</span><span class="mr-1 mr-md-3">${minutes} min</span><span>${seconds} sek</span>`);
 
 
 
