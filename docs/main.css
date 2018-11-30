@@ -213,7 +213,7 @@
 .footer__icon-container {
   padding: 2rem 0;
   flex-grow: 1 0 33.33%;
-  width: 33%;
+  width: 33.33%;
   display: flex;
   justify-content: center;
   transition: all .3s;
