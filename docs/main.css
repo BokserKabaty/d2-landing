@@ -111,7 +111,7 @@
 /* gallery */
 .gallery-title {
   padding-top: 4rem !important;
-  background: #eee;
+  background: #ddd;
 }
 
 .gallery-title__heading,
@@ -120,7 +120,7 @@
 }
 
 .gallery {
-  background: #eee;
+  background: #ddd;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(7, 6.5vw);
@@ -229,4 +229,13 @@
   .footer__icon {
     font-size: 3.5rem;
   }
+}
+
+/* goals */
+.goals__desc {
+  font-size: 1.3rem;
+}
+
+.goals__title-icon {
+  color: var(--mainBlue);
 }
