@@ -148,7 +148,7 @@
 }
 
 .gallery__img {
-  transition: .5s all ease-in-out;
+  transition: .7s all ease-in-out;
 }
 
 .gallery__item:hover .gallery__img {
