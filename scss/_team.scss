@@ -1,0 +1,29 @@
+.team {
+
+  &__img {
+    width: 100%;
+    display: block;
+  }
+  
+  &__img-container {
+    flex-basis: 20%;
+  }
+  
+  &__info-container {
+    flex-basis: 80%;
+  }
+  
+  &__playername {
+    color: var(--primaryBlue);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .team__playername {
+    font-size: 1.5rem;
+  }
+
+  .team__player-desc {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,25 @@
+.logo-bar {
+  background-color: var(--primaryBlue);
+  min-height: 10vh;
+  border-top: 5px solid #fff;
+
+  &__paragraph {
+    font-size: 1rem; 
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .logo-bar__paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-bar__paragraph {
+    font-size: 2rem;
+  }
+
+  .logo-bar__icon {
+    font-size: 1.5rem;
+  }
+}

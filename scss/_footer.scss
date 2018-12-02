@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--primaryBlue);
+
+  &__icon-container {
+    padding: 2rem 0;
+    flex-grow: 1 0 33.33%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    transition: all .3s;
+
+    &:hover {
+      background-color: var(--primaryWhite);
+    }
+
+    &:hover .footer__icon {
+      color: var(--primaryBlue);
+    }
+  }
+  
+  &__icon {
+    color: var(--primaryWhite);
+    font-size: 2.5rem;
+    transition: all .3s;
+
+    &:hover {
+      color: var(--primaryWhite);
+      transform: scale(1.2);
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .footer__icon {
+    font-size: 3.5rem;
+  }
+}

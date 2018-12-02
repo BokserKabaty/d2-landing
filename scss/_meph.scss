@@ -1,0 +1,34 @@
+.meph {
+  background: linear-gradient(rgba(120,120,120, .3), rgba(120,120,120, .3)), url('./img/meph.png') center / cover fixed no-repeat;
+  min-height: 30vh;
+
+  &__text {
+    font-size: 1.35rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    text-shadow: 0 10px 15px rgba(52,52,52, .4);
+    text-align: center;
+  }
+  
+  &__signature {
+    font-size: 1.35rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) { 
+  .meph {
+    min-height: 40vh;
+  }
+
+  .meph__text {
+    font-size: 2.25rem;
+    letter-spacing: 0.15rem;
+    text-align: left;
+  }
+
+  .meph__signature {
+    font-size: 2.25rem;
+    text-align: left;
+  }
+}

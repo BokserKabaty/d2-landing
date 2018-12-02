@@ -1,0 +1,9 @@
+.header {
+  background: linear-gradient(rgba(192, 57, 43, .5), rgba(192, 57, 43, .5)),url('./img/header.jpg') center / cover no-repeat;
+  min-height: 90vh;
+  border-top: 5px solid #fff;
+
+  &__heading-primary {
+    font-weight: 300;
+  }
+}
