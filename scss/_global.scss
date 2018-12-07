@@ -14,3 +14,23 @@
   background: var(--primaryBlue);
   height: 3px;
 }
+
+
+/********** Modal ***********/
+@media screen and (min-width: 768px) {
+  .drop-modal__dialog {
+    min-width: 650px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .drop-modal__dialog {
+    min-width: 800px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .drop-modal__dialog {
+    min-width: 1000px !important;
+  }
+}
