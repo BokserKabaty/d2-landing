@@ -8,12 +8,16 @@ $(function () {
     }
   });
 
+  // Stop video play on modal close
+  $("#videoModal").on('hidden.bs.modal', function (e) {
+    $("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
+  });
+
   // Setup WOW
 	new WOW().init();
 
-  // 
-  ////// Countdown timer
-  //
+
+  ////////////////// COUNTDOWN TIMER //////////////////
 
   // Set the date we're counting down to
   let countDownDate = new Date("Dec 8, 2018 2:00:00").getTime();
