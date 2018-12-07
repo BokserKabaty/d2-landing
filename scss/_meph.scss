@@ -1,18 +1,19 @@
 .meph {
-  background: linear-gradient(rgba(120,120,120, .3), rgba(120,120,120, .3)), url('./img/meph.png') center / cover fixed no-repeat;
+  background: linear-gradient(to bottom, rgba(180,180,180, .3), rgba(180,180,180, .5)), url('./img/meph.png') center / cover fixed no-repeat;
   min-height: 30vh;
 
   &__text {
     font-size: 1.35rem;
     letter-spacing: .1rem;
-    font-weight: 300;
-    text-shadow: 0 10px 15px rgba(52,52,52, .4);
+    font-weight: 400;
     text-align: center;
+    color: #000;
   }
   
   &__signature {
     font-size: 1.35rem;
     text-align: center;
+    color: #242424;
   }
 }
 

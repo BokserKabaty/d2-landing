@@ -51,17 +51,18 @@
   .team__player-desc {
     font-size: 1.1rem; } }
 .meph {
-  background: linear-gradient(rgba(120, 120, 120, 0.3), rgba(120, 120, 120, 0.3)), url("./img/meph.png") center/cover fixed no-repeat;
+  background: linear-gradient(to bottom, rgba(180, 180, 180, 0.3), rgba(180, 180, 180, 0.5)), url("./img/meph.png") center/cover fixed no-repeat;
   min-height: 30vh; }
   .meph__text {
     font-size: 1.35rem;
     letter-spacing: .1rem;
-    font-weight: 300;
-    text-shadow: 0 10px 15px rgba(52, 52, 52, 0.4);
-    text-align: center; }
+    font-weight: 400;
+    text-align: center;
+    color: #000; }
   .meph__signature {
     font-size: 1.35rem;
-    text-align: center; }
+    text-align: center;
+    color: #242424; }
 
 @media (min-width: 992px) {
   .meph {
