@@ -9,6 +9,11 @@
 /*==============================*/
 //         GLOBAL STYLES  
 /*==============================*/
+::selection {
+  background-color: var(--primaryBlue);
+  color: var(--primaryWhite);
+}
+
 .title-underline {
   width: 50%;
   background: var(--primaryBlue);
