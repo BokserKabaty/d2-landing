@@ -20,11 +20,11 @@
   grid-template-areas:
     "img1 img1 img2 img2 img2 img3 img3 img4 img4"
     "img1 img1 img2 img2 img2 img3 img3 img4 img4"
-    "img5 img5 img2 img2 img2 img8 img8 img9 img9"
-    "img5 img5 img6 img6 img6 img8 img8 img9 img9"
-    "img5 img5 img6 img6 img6 img13 img13 img9 img9"
-    "img10 img10 img10 img12 img12 img13 img13 img14 img14"
-    "img10 img10 img10 img12 img12 img13 img13 img14 img14";
+    "img5 img5 img2 img2 img2 img7 img7 img8 img8"
+    "img5 img5 img6 img6 img6 img7 img7 img8 img8"
+    "img5 img5 img6 img6 img6 img11 img11 img8 img8"
+    "img9 img9 img9 img10 img10 img11 img11 img12 img12"
+    "img9 img9 img9 img10 img10 img11 img11 img12 img12";
   
   &__img {
     width: 100%;
@@ -60,6 +60,9 @@
     &--6 {
       grid-area: img6;
     }
+    &--7 {
+      grid-area: img7;
+    }
     &--8 {
       grid-area: img8;
     }
@@ -74,12 +77,6 @@
     }
     &--12 {
       grid-area: img12;
-    }
-    &--13 {
-      grid-area: img13;
-    }
-    &--14 {
-      grid-area: img14;
     }
   }
 
