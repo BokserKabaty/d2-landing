@@ -120,8 +120,8 @@
   .gallery__item {
     overflow: hidden; }
     .gallery__item:hover .gallery__img {
-      opacity: 0.9;
-      transform: scale(1.05); }
+      opacity: 0.95;
+      transform: scale(1.02); }
     .gallery__item--1 {
       grid-area: img1; }
     .gallery__item--2 {
