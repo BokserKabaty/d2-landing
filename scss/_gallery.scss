@@ -14,7 +14,7 @@
   background: #ddd;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(17, 6.5vw);
+  grid-template-rows: repeat(21, 6.5vw);
   grid-gap: .4rem;
   padding: 1rem;
   grid-template-areas:
@@ -34,7 +34,11 @@
     "img24 img24 img24 img25 img25 img26 img26 img27 img27"
     "img24 img24 img24 img25 img25 img26 img26 img27 img27"
     "img28 img28 img29 img29 img30 img30 img30 img31 img31"
-    "img28 img28 img29 img29 img30 img30 img30 img31 img31";
+    "img28 img28 img29 img29 img30 img30 img30 img31 img31"
+    "img32 img32 img33 img33 img33 img34 img34 img35 img35"
+    "img32 img32 img33 img33 img33 img34 img34 img35 img35"
+    "img36 img36 img37 img37 img38 img38 img39 img39 img39"
+    "img36 img36 img37 img37 img38 img38 img39 img39 img39";
   
   &__img {
     width: 100%;
@@ -144,6 +148,30 @@
     }
     &--31 {
       grid-area: img31;
+    }
+    &--32 {
+      grid-area: img32;
+    }
+    &--33 {
+      grid-area: img33;
+    }
+    &--34 {
+      grid-area: img34;
+    }
+    &--35 {
+      grid-area: img35;
+    }
+    &--36 {
+      grid-area: img36;
+    }
+    &--37 {
+      grid-area: img37;
+    }
+    &--38 {
+      grid-area: img38;
+    }
+    &--39 {
+      grid-area: img39;
     }
   }
 
