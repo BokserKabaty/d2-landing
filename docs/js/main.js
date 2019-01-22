@@ -13,6 +13,10 @@ $(function () {
     $("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
   });
 
+  $("#videoModal2").on('hidden.bs.modal', function (e) {
+    $("#videoModal2 iframe").attr("src", $("#videoModal2 iframe").attr("src"));
+  });
+
   // Setup WOW
 	new WOW().init();
 
