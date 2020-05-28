@@ -24,7 +24,7 @@ $(function () {
   ////////////////// COUNTDOWN TIMER //////////////////
 
   // Set the date we're counting down to
-  let countDownDate = new Date("Dec 8, 2018 2:00:00").getTime();
+  let countDownDate = new Date("Jun 5, 2020 2:00:00").getTime();
 
   // Update the count down every 1 second
   let x = setInterval(() => {
